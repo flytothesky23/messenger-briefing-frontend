@@ -1,0 +1,121 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+}
+.container {
+  max-width: 520px;
+  margin: 48px auto;
+  padding: 0 12px;
+}
+.card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(44,123,229,0.09);
+  padding: 32px 24px 24px 24px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.upload-card {
+  border: 2px dashed #a5b4fc;
+}
+.icon-main {
+  color: #6366f1;
+  font-size: 3.2rem;
+  margin-bottom: 12px;
+}
+.icon-summary {
+  color: #2c7be5;
+  font-size: 2.1rem;
+  margin-right: 8px;
+}
+h1 {
+  color: #243b55;
+  margin-bottom: 12px;
+}
+.desc {
+  color: #6b7280;
+  margin-bottom: 16px;
+  font-size: 1.08rem;
+}
+input[type="file"] {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background: linear-gradient(90deg, #6366f1 0%, #2c7be5 100%);
+  color: #fff;
+  border: none;
+  padding: 11px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #b0c5e3;
+  cursor: not-allowed;
+}
+.summary-box {
+  background: #f1f7ff;
+  border-radius: 14px;
+  padding: 22px 18px 16px 18px;
+  margin-top: 18px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(44,123,229,0.08);
+  border-left: 6px solid #6366f1;
+}
+.summary-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.summary-header h2 {
+  color: #2c7be5;
+  margin: 0 0 0 8px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.summary-pre {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  background: none;
+  border: none;
+  color: #22223b;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+}
+.error {
+  color: #d32f2f;
+  margin-top: 16px;
+}
+.or-text {
+  color: #a3a3a3;
+  margin: 10px 0 6px 0;
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+.text-input {
+  width: 100%;
+  min-height: 90px;
+  max-height: 240px;
+  resize: vertical;
+  font-size: 1rem;
+  padding: 10px 12px;
+  border-radius: 7px;
+  border: 1.5px solid #a5b4fc;
+  margin-bottom: 18px;
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s;
+}
+.text-input:focus {
+  border: 2px solid #6366f1;
+}
