@@ -46,7 +46,7 @@ function App() {
         setLoading(false);
         return;
       }
-      const res = await fetch("http://localhost:8000/summarize/", {
+      const res = await fetch("https://ilil-mesinjeo-yoyag-beuriping.onrender.com/summarize/", {
         method: "POST",
         body: formData,
       });
